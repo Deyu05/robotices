@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025/rosidl_cmake/rosidl_cmake-extras.cmake

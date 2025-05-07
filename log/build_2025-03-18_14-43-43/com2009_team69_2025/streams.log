@@ -1,0 +1,240 @@
+[0.014s] Invoking command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/com2009_team69_2025 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.460s] -- Detecting C compile features
+[0.460s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.551s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.690s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.727s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.808s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.813s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.820s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.877s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.881s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.354s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.717s] -- Looking for pthread.h
+[2.795s] -- Looking for pthread.h - found
+[2.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.874s] -- Found Threads: TRUE  
+[2.908s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.910s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.097s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.440s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.442s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.585s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.585s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.586s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.586s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.601s] -- Found PythonExtra: .so  
+[3.655s] -- Configuring done
+[3.687s] -- Generating done
+[3.696s] -- Build files have been written to: /home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025
+[3.705s] Invoked command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/com2009_team69_2025 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025
+[3.706s] Invoking command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025 -- -j16 -l16
+[3.740s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.748s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o[0m
+[3.749s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.756s] [  9%] Built target ament_cmake_python_symlink_com2009_team69_2025
+[3.756s] [  9%] Built target ament_cmake_python_symlink_com2009_team69_2025_modules
+[3.912s] running egg_info
+[3.913s] creating com2009_team69_2025.egg-info
+[3.913s] writing com2009_team69_2025.egg-info/PKG-INFO
+[3.913s] writing dependency_links to com2009_team69_2025.egg-info/dependency_links.txt
+[3.913s] writing top-level names to com2009_team69_2025.egg-info/top_level.txt
+[3.913s] writing manifest file 'com2009_team69_2025.egg-info/SOURCES.txt'
+[3.914s] reading manifest file 'com2009_team69_2025.egg-info/SOURCES.txt'
+[3.915s] writing manifest file 'com2009_team69_2025.egg-info/SOURCES.txt'
+[3.922s] running egg_info
+[3.922s] creating com2009_team69_2025_modules.egg-info
+[3.923s] writing com2009_team69_2025_modules.egg-info/PKG-INFO
+[3.923s] writing dependency_links to com2009_team69_2025_modules.egg-info/dependency_links.txt
+[3.923s] writing top-level names to com2009_team69_2025_modules.egg-info/top_level.txt
+[3.923s] writing manifest file 'com2009_team69_2025_modules.egg-info/SOURCES.txt'
+[3.925s] reading manifest file 'com2009_team69_2025_modules.egg-info/SOURCES.txt'
+[3.926s] writing manifest file 'com2009_team69_2025_modules.egg-info/SOURCES.txt'
+[3.939s] [  9%] Built target ament_cmake_python_build_com2009_team69_2025_egg
+[3.951s] [  9%] Built target ament_cmake_python_build_com2009_team69_2025_modules_egg
+[4.050s] [  9%] Built target com2009_team69_2025__cpp
+[4.058s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.058s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.059s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.082s] [ 21%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_generator_c.dir/rosidl_generator_c/com2009_team69_2025/action/detail/explore_forward__functions.c.o[0m
+[4.181s] [ 24%] [32m[1mLinking C shared library libcom2009_team69_2025__rosidl_generator_c.so[0m
+[4.243s] [ 24%] Built target com2009_team69_2025__rosidl_generator_c
+[4.252s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.252s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.252s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.304s] [ 36%] [32mBuilding CXX object CMakeFiles/com2009_team69_2025__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com2009_team69_2025/action/explore_forward__type_support.cpp.o[0m
+[4.349s] [ 39%] [32mBuilding CXX object CMakeFiles/com2009_team69_2025__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com2009_team69_2025/action/detail/dds_fastrtps/explore_forward__type_support.cpp.o[0m
+[4.358s] [ 42%] [32mBuilding CXX object CMakeFiles/com2009_team69_2025__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com2009_team69_2025/action/detail/explore_forward__type_support.cpp.o[0m
+[4.495s] [ 45%] [32mBuilding CXX object CMakeFiles/com2009_team69_2025__rosidl_typesupport_c.dir/rosidl_typesupport_c/com2009_team69_2025/action/explore_forward__type_support.cpp.o[0m
+[4.547s] [ 48%] [32m[1mLinking CXX shared library libcom2009_team69_2025__rosidl_typesupport_c.so[0m
+[4.572s] [ 51%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com2009_team69_2025/action/detail/explore_forward__type_support.c.o[0m
+[4.597s] [ 54%] [32mBuilding CXX object CMakeFiles/com2009_team69_2025__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com2009_team69_2025/action/detail/explore_forward__type_support_c.cpp.o[0m
+[4.605s] [ 54%] Built target com2009_team69_2025__rosidl_typesupport_c
+[4.606s] [ 57%] [32m[1mLinking C shared library libcom2009_team69_2025__rosidl_typesupport_introspection_c.so[0m
+[4.660s] [ 57%] Built target com2009_team69_2025__rosidl_typesupport_introspection_c
+[4.707s] [ 60%] [32m[1mLinking CXX shared library libcom2009_team69_2025__rosidl_typesupport_cpp.so[0m
+[4.765s] [ 63%] [32m[1mLinking CXX shared library libcom2009_team69_2025__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.771s] [ 63%] Built target com2009_team69_2025__rosidl_typesupport_cpp
+[4.812s] [ 66%] [32m[1mLinking CXX shared library libcom2009_team69_2025__rosidl_typesupport_introspection_cpp.so[0m
+[4.844s] [ 66%] Built target com2009_team69_2025__rosidl_typesupport_fastrtps_cpp
+[4.851s] [ 69%] [32m[1mLinking CXX shared library libcom2009_team69_2025__rosidl_typesupport_fastrtps_c.so[0m
+[4.886s] [ 69%] Built target com2009_team69_2025__rosidl_typesupport_introspection_cpp
+[4.926s] [ 69%] Built target com2009_team69_2025__rosidl_typesupport_fastrtps_c
+[4.942s] [ 69%] Built target com2009_team69_2025
+[4.960s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.484s] [ 72%] Built target com2009_team69_2025__py
+[5.500s] [ 75%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_generator_py.dir/rosidl_generator_py/com2009_team69_2025/action/_explore_forward_s.c.o[0m
+[5.589s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/com2009_team69_2025/libcom2009_team69_2025__rosidl_generator_py.so[0m
+[5.646s] [ 78%] Built target com2009_team69_2025__rosidl_generator_py
+[5.663s] [ 87%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.663s] [ 87%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_c.c.o[0m
+[5.663s] [ 87%] [32mBuilding C object CMakeFiles/com2009_team69_2025__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.740s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.740s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.740s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.786s] [ 96%] Built target com2009_team69_2025__rosidl_typesupport_fastrtps_c__pyext
+[5.786s] [ 96%] Built target com2009_team69_2025__rosidl_typesupport_c__pyext
+[5.791s] [ 96%] Built target com2009_team69_2025__rosidl_typesupport_introspection_c__pyext
+[5.975s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[6.054s] [100%] Built target cpp_executable
+[6.063s] Invoked command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025 -- -j16 -l16
+[6.070s] Invoking command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025
+[6.075s] -- Install configuration: ""
+[6.075s] -- Execute custom install script
+[6.076s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/ament_index/resource_index/rosidl_interfaces/com2009_team69_2025
+[6.084s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__functions.h
+[6.090s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__struct.h
+[6.095s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__type_support.h
+[6.103s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/explore_forward.h
+[6.109s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/msg/rosidl_generator_c__visibility_control.h
+[6.115s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/library_path.sh
+[6.122s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/library_path.dsv
+[6.129s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__rosidl_typesupport_fastrtps_c.h
+[6.135s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.142s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__builder.hpp
+[6.150s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__struct.hpp
+[6.157s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__traits.hpp
+[6.164s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__type_support.hpp
+[6.170s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/explore_forward.hpp
+[6.175s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.182s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__rosidl_typesupport_fastrtps_cpp.hpp
+[6.188s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.194s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__rosidl_typesupport_introspection_c.h
+[6.201s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.207s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/include/com2009_team69_2025/com2009_team69_2025/action/detail/explore_forward__rosidl_typesupport_introspection_cpp.hpp
+[6.213s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/pythonpath.sh
+[6.220s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/pythonpath.dsv
+[6.227s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025-0.0.0-py3.10.egg-info/PKG-INFO
+[6.234s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.239s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.246s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025-0.0.0-py3.10.egg-info/top_level.txt
+[6.252s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/__init__.py
+[6.259s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_c.c
+[6.264s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.269s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/_com2009_team69_2025_s.ep.rosidl_typesupport_introspection_c.c
+[6.275s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action/__init__.py
+[6.281s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action/_explore_forward.py
+[6.287s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action/_explore_forward_s.c
+[6.293s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.299s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.307s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.315s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/libcom2009_team69_2025__rosidl_generator_py.so
+[6.322s] -- Up-to-date symlink: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.322s] -- Up-to-date symlink: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.322s] -- Up-to-date symlink: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/com2009_team69_2025_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.323s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/action/ExploreForward.idl
+[6.329s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/action/ExploreForward.action
+[6.338s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/com2009_team69_2025/cpp_executable
+[6.349s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[6.355s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.362s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.368s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules-0.0.0-py3.10.egg-info/top_level.txt
+[6.374s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules/__init__.py
+[6.380s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules/tb3_tools.py
+[6.386s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/com2009_team69_2025/move_eight_shape.py
+[6.392s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/com2009_team69_2025/explore_server.py
+[6.398s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/com2009_team69_2025/explore_client.py
+[6.404s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/launch/task1.launch.py
+[6.410s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/launch/task2.launch.py
+[6.416s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/ament_index/resource_index/package_run_dependencies/com2009_team69_2025
+[6.424s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/ament_index/resource_index/parent_prefix_path/com2009_team69_2025
+[6.430s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/ament_prefix_path.sh
+[6.436s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/ament_prefix_path.dsv
+[6.442s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/path.sh
+[6.449s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/environment/path.dsv
+[6.457s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/local_setup.bash
+[6.463s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/local_setup.sh
+[6.469s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/local_setup.zsh
+[6.474s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/local_setup.dsv
+[6.480s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/package.dsv
+[6.487s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/ament_index/resource_index/packages/com2009_team69_2025
+[6.493s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/rosidl_cmake-extras.cmake
+[6.499s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.505s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.511s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/ament_cmake_export_libraries-extras.cmake
+[6.517s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/ament_cmake_export_targets-extras.cmake
+[6.526s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.532s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.538s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025Config.cmake
+[6.545s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025Config-version.cmake
+[6.552s] -- Symlinking: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/package.xml
+[6.558s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_generator_c.so
+[6.558s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_generator_c.so" to ""
+[6.558s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_fastrtps_c.so
+[6.559s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_fastrtps_c.so" to ""
+[6.559s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_fastrtps_cpp.so
+[6.559s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.559s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_introspection_c.so
+[6.560s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_introspection_c.so" to ""
+[6.560s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_c.so
+[6.560s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_c.so" to ""
+[6.560s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_introspection_cpp.so
+[6.560s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_introspection_cpp.so" to ""
+[6.560s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_cpp.so
+[6.561s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_typesupport_cpp.so" to ""
+[6.586s] Listing '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025'...
+[6.586s] Compiling '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/__init__.py'...
+[6.586s] Listing '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action'...
+[6.586s] Compiling '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action/__init__.py'...
+[6.586s] Compiling '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025/action/_explore_forward.py'...
+[6.588s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_generator_py.so
+[6.589s] -- Set runtime path of "/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/lib/libcom2009_team69_2025__rosidl_generator_py.so" to ""
+[6.609s] Listing '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules'...
+[6.609s] Compiling '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules/__init__.py'...
+[6.609s] Compiling '/home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/local/lib/python3.10/dist-packages/com2009_team69_2025_modules/tb3_tools.py'...
+[6.611s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_generator_cExport.cmake
+[6.612s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_generator_cExport-noconfig.cmake
+[6.612s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_typesupport_fastrtps_cExport.cmake
+[6.612s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.612s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_generator_cppExport.cmake
+[6.612s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_introspection_cExport.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_cExport.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_cExport-noconfig.cmake
+[6.613s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_introspection_cppExport.cmake
+[6.614s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.614s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_cppExport.cmake
+[6.614s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/com2009_team69_2025__rosidl_typesupport_cppExport-noconfig.cmake
+[6.614s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_generator_pyExport.cmake
+[6.614s] -- Installing: /home/student/ros2_ws/src/com2009_team69_2025/install/com2009_team69_2025/share/com2009_team69_2025/cmake/export_com2009_team69_2025__rosidl_generator_pyExport-noconfig.cmake
+[6.616s] Invoked command in '/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025

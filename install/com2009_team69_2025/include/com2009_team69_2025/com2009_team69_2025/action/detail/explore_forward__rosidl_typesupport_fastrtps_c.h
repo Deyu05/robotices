@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025/rosidl_typesupport_fastrtps_c/com2009_team69_2025/action/detail/explore_forward__rosidl_typesupport_fastrtps_c.h

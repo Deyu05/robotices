@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/com2009_team69_2025/build/com2009_team69_2025/rosidl_generator_c/com2009_team69_2025/msg/rosidl_generator_c__visibility_control.h
